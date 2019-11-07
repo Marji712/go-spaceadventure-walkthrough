@@ -4,7 +4,7 @@ import "fmt"
 
 func Start() {
 	printWelcome()
-	printGreeting(GetResponseToPrompt("What is your name?"))
+	printGreeting(getResponseToPrompt("What is your name?"))
 	fmt.Println("Let's go on an adventure!")
 	travel()
 }

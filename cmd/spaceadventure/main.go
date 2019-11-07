@@ -1,7 +1,6 @@
 package main
 
-import "fmt"
-import "github.com/ybakos/spaceadventure_solution/internal/spaceadventure"
+import "go-spaceadventure-walkthrough/internal/spaceadventure"
 
 func main() {
 	spaceadventure.Start()
