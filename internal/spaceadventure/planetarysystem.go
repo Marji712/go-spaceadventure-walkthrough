@@ -2,6 +2,10 @@ package spaceadventure
 
 type PlanetarySystem struct {
 	Name string
-	Planet []planets
+	Planets []Planet
+}
+
+func (ps PlanetarySystem) NumberOfPlanets() int {
+	return len(ps.Planets)
 }
 

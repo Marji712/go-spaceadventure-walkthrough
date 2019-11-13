@@ -10,8 +10,8 @@ func Start(planetarySystem PlanetarySystem) {
 }
 
 func printWelcome(planetarySystem PlanetarySystem) {
-	fmt.Println("Welcome to the %s!", planetarySystem.Name)
-	fmt.Println("There are %d planets to explore.", len(planetarySystem.planets))
+	fmt.Printf("Welcome to the %s!\n", planetarySystem.Name)
+	fmt.Printf("There are %d planets to explore.\n", planetarySystem.NumberOfPlanets())
 }
 
 func printGreeting(name string) {
